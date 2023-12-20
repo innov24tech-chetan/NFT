@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Details</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="i-div"></div>
+        <header class="explore-header">
+            <div class="explore-logo"><a href="./home.html"><img src="images/img37-removebg-preview.png" alt="">
+                    <h2>NFT</h2>
+                </a>
+            </div>
+
+            <nav class="explore-nav">
+                <div class="hamburger" onclick="toggleExploreUl()"> <i class="fa-solid fa-bars"></i></div>
+                <ul class="explore-ul">
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./explore.html">Explore</a></li>
+                    <li><a href="./activity.html">Activity</a></li>
+                    <li class="dropdown-demo"><a href="./community.html">Community <span class="d-child"><i
+                                class="fa-solid fa-caret-down"></i></span></a>
+                        <div class="dropdown-content-demo">
+                            <a href="#community">Blog</a>
+                            <a href="./page.html">Blog Details</a>
+                            <a href="./help.html">Help Center</a>
+
+                        </div>
+                    </li>
+                    <li class="dropdown-demo"><a href="./authors.html">Page <span class="d-child"><i class="fa-solid fa-caret-down"></i></span></a>
+                        <div class="dropdown-content-demo">
+                            <a href="./author.html">Author1</a>
+                            <a href="./authors.html">Author2</a>
+                            <a href="./connect.html">Connect Wallet</a>
+                            <a href="./create.html">Create Item</a>
+                            <a href="./editprofile.html">Edit-Profile</a>
+                            <a href="./ranking.html">Ranking</a>
+                            <a href="./login.html">Login</a>
+                            <a href="./signup.html">Signup</a>
+                            <a href="./item-details.html">Item-Details</a>
+
+                        </div>
+                    </li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-child">
+                <div class="header-input"><input class="search-bar" placeholder="Search" type="text"><a class="header-a"
+                        href=""><img src="images/fe_search.png" alt=""></a></div>
+                <div><button id="button">Wallet Connect</button></div>
+
+            </div>
+            <button class="mode-icon" id="light"><img src="images/mode-icon.png" alt=""></button>
+        </header>
+        <div class="i-div"></div>
+    </div>
+    <div class="parent">
+        <div class="i-div"></div>
+        <main class="i-i-div">
+            
+            <div class="explore-img">
+                <div class="explore-img-content">
+
+                    <h1 id="explore-heading">Item Details</h1>
+                    <p class="home-explore">Home / Page/ Item Details</p>
+                </div>
+            </div>
+            <div class="item-details">
+                <div class="item-details-child1">
+                    <div class="item-details-right">
+                        <img class="item-details-right" src="images/item-details-img.png" alt="">
+                    </div>
+                    <div class="item-details-left">
+                        <h3 class="details-heading">“The Fantasy Flower illustration”</h3>
+                        <div class="item-details-icon">
+                            <div class="item-l">
+                                <div class="item-left"><img src="images/item-icon1.png" alt="">225</div>
+                                <div class="item-right"><img src="images/item-heart.png" alt="">100</div>
+                            </div>
+                            <div class="item-r">
+                                <div class="item-left-a"><img src="images/v-tele.png" alt=""></div>
+                                <div class="item-right-a"><img src="images/V-line.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="item-profile">
+                            <div class="item-p-left">
+                                <img src="images/p-img.png" alt="">
+                                <div class="p-content">
+                                    <p>Owned By</p>
+                                    <p>Ralph Garraway</p>
+                                </div>
+                            </div>
+                            <div class="item-p-right">
+                                <img src="images/p-img.png" alt="">
+                                <div class="p-content">
+                                    <p>Owned By</p>
+                                    <p>Ralph Garraway</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="item-para">
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                architecto beatae vitae dicta sunt explicabo.</p>
+                        </div>
+                        <div class="detail-c">
+                            <div class="detail-c-l">
+                                <p>Current Bid</p> <span>4.89 ETH =$12,446</span>
+                            </div>
+                            <div class="detail-c-r">
+                                <p>Current Bid</p> <span>4.89 ETH =$12,446</span>
+                            </div>
+                        </div>
+
+                        <button class="place-a-bid-btn">Place a bid</button>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="item-details-2">
+                <div class="item-details-toggle">
+                    <a href="">Bid History</a>
+                    <a href="" id="info">Info</a>
+                    <a href="">Provenance</a>
+                </div>
+
+
+
+                <div class="middle-line"></div>
+                <div class="item-details-down-menu">
+                    <div class="masson-woodland">
+                        <div class="name-hour">
+                            <img src="images/it-d-2.png" alt="">
+
+                            <div>
+                                <p>Mason Woodward </p>
+                                <p class="hours">8 hours ago</p>
+                            </div>
+                        </div>
+                        <p class="data-name">Place a bid</p>
+                        <div class="data">
+                            <p>4.89 ETH</p>
+                            <p class="hours">=$12,246</p>
+                        </div>
+                    </div>
+                    <div class="masson-woodland">
+                        <div class="name-hour">
+                            <img src="images/it-d-3.png" alt="">
+
+                            <div>
+                                <p>Mason Woodward </p>
+                                <p class="hours">8 hours ago</p>
+                            </div>
+                        </div>
+                        <p class="data-name">Place a bid</p>
+                        <div class="data">
+                            <p>4.89 ETH</p>
+                            <p class="hours">=$12,246</p>
+                        </div>
+                    </div>
+                    <div class="masson-woodland">
+                        <div class="name-hour">
+                            <img src="images/masson.png" alt="">
+
+                            <div>
+                                <p>Mason Woodward </p>
+                                <p class="hours">8 hours ago</p>
+                            </div>
+                        </div>
+                        <p class="data-name">Place a bid</p>
+                        <div class="data">
+                            <p>4.89 ETH</p>
+                            <p class="hours">=$12,246</p>
+                        </div>
+                    </div>
+                    <div class="masson-woodland">
+                        <div class="name-hour">
+                            <img src="images/masson.png" alt="">
+
+                            <div>
+                                <p>Mason Woodward </p>
+                                <p class="hours">8 hours ago</p>
+                            </div>
+                        </div>
+                        <p class="data-name">Place a bid</p>
+                        <div class="data">
+                            <p>4.89 ETH</p>
+                            <p class="hours">=$12,246</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer">
+                    <div class="footer-content">
+                        <div>
+                            <h2>Logo</h2>
+                            <p class="footer-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id
+                                interdum est.</p>
+                        </div>
+                    </div>
+                    <div class="footer-content">
+                        <h3>My Account</h3>
+                        <ul class="footer-ul">
+                            <li><a href="">Authors</a></li>
+                            <li><a href="">Collection</a></li>
+                            <li><a href="">Author Profile</a></li>
+                            <li><a href="">Create Item</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-content">
+                        <h3>Resources</h3>
+                        <ul class="footer-ul">
+                            <li><a href="">Help & Support</a></li>
+                            <li><a href="">Live Auctions</a></li>
+                            <li><a href="">Item Details</a></li>
+                            <li><a href="">Activity</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-content">
+                        <h3>Company</h3>
+                        <ul class="footer-ul">
+                            <li><a href="">Explore</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Our Blog </a></li>
+                            <li><a href="">FAQ</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="footer-content">
+                        <h3>Subscribe Us</h3>
+                        <div class="search-div"><input class="footer-input" type="text"><button
+                                class="search-div-btn"><img src="images/send 1.png" alt=""></button></div>
+                        <div class="footer-icon"><button class="footer-icon-btn"><img src="images/telegram (1) 1.png"
+                                    alt=""></button>
+                            <button class="footer-icon-btn"><img src="images/facebook (2) 1.png" alt=""></button>
+
+                            <button class="footer-icon-btn"><img src="images/brand 1.png" alt=""></button>
+                            <button class="footer-icon-btn"><img src="images/discord 1.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+          
+        </main>
+        <div class="i-div"></div>
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

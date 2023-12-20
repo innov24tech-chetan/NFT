@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the Slick Carousel theme CSS file (optional) -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <div class="parent">
+        <div class="i-div"></div>
+        <header class="explore-header">
+            <div class="explore-logo"><a href="./home.html"><img src="images/img37-removebg-preview.png" alt="">
+                    <h2>NFT</h2>
+                </a>
+            </div>
+
+            <nav class="explore-nav  ">
+                <div class="hamburger" onclick="toggleExploreUl()"> <i class="fa-solid fa-bars"></i></div>
+
+
+                <ul class="explore-ul ">
+
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./explore.html">Explore</a></li>
+                    <li><a href="./activity.html">Activity</a></li>
+                    <li class="dropdown-demo"><a href="./community.html">Community <span class="d-child"><i
+                                    class="fa-solid fa-caret-down"></i></span></a>
+                        <div class="dropdown-content-demo">
+                            <a href="#community">Blog</a>
+                            <a href="./page.html">Blog Details</a>
+                            <a href="./help.html">Help Center</a>
+
+                        </div>
+                    </li>
+                    <li class="dropdown-demo"><a href="./authors.html">Page<span class="d-child"><i
+                                    class="fa-solid fa-caret-down"></i></span></a>
+                        <div class="dropdown-content-demo">
+                            <a href="./author.html">Author1</a>
+                            <a href="./authors.html">Author2</a>
+                            <a href="./connect.html">Connect Wallet</a>
+                            <a href="./create.html">Create Item</a>
+                            <a href="./editprofile.html">Edit-Profile</a>
+                            <a href="./ranking.html">Ranking</a>
+                            <a href="./login.html">Login</a>
+                            <a href="./signup.html">Signup</a>
+                            <a href="./item-details.html">Item-Details</a>
+                        </div>
+                    </li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-child">
+                <div class="header-input"><input class="search-bar" placeholder="Search" type="text"><a class="header-a"
+                        href=""><img src="images/fe_search.png" alt=""></a></div>
+                <div><button id="button">Wallet Connect</button></div>
+
+            </div>
+            <button class="mode-icon" id="light"><img src="images/mode-icon.png" alt=""></button>
+
+        </header>
+        <div class="i-div"></div>
+    </div>
+    </div>
+    <div class="parent">
+        <div class="i-div"></div>
+        <main class="i-i-div">
+            <div class="hero-banner">
+
+                <h1>Explore, find,<br>
+                    <Span class="market-heading">Market extraordinary</Span> <br>
+                    Monster NFTs
+                </h1>
+                <p class="hero-content">NFT Marketplace specializing in non-fungible token collections of monstrous <br>
+                    characters.</p>
+                <div class="hero-button">
+                    <button id="button">Explore</button>
+                    <button id="button">Create</button>
+                </div>
+            </div>
+            <div class="container" loader="lazy">
+                <h2 class="top-heading">Top Seller</h2>
+                <div class=" top-seller">
+
+                    <div class="img"><img src="images/img-1.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Tommy Alrez <br>170.3 ETH</p>
+                    </div>
+
+                    <div class="img"><img src="images/img-2.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Andy Hurlbutt <br>170.3 ETH</p>
+                    </div>
+
+                    <div class="img"><img src="images/img-3.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Blake Banks <br>170.3 ETH</p>
+                    </div>
+
+                    <div class="img"><img src="images/img-4.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Tommy Alrez <br>170.3 ETH</p>
+                    </div>
+
+                    <div class="img"><img src="images/img-5.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Blake Banks <br>170.3 ETH</p>
+                    </div>
+
+                    <div class="img"><img src="images/img-6.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Monica Lucas <br>170.3 ETH</p>
+                    </div>
+
+                    <div class="img"><img src="images/img-7.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Tommy Alrez <br>170.3 ETH</p>
+                    </div>
+
+                    <div class="img"><img src="images/img-8.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Windsor Lane <br>170.3 ETH</p>
+                    </div>
+
+                    <div class="img"><img src="images/img-1.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Monica Lucas <br>170.3 ETH</p>
+                    </div>
+                    <div class="img"><img src="images/img-1.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Tommy Alrez <br>170.3 ETH</p>
+                    </div>
+
+                    <div class="img"><img src="images/img-2.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Andy Hurlbutt <br>170.3 ETH</p>
+                    </div>
+
+                    <div class="img"><img src="images/img-3.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Blake Banks <br>170.3 ETH</p>
+                    </div>
+
+                    <div class="img"><img src="images/img-4.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Tommy Alrez <br>170.3 ETH</p>
+                    </div>
+
+                    <div class="img"><img src="images/img-5.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Blake Banks <br>170.3 ETH</p>
+                    </div>
+
+                    <div class="img"><img src="images/img-6.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Monica Lucas <br>170.3 ETH</p>
+                    </div>
+
+                    <div class="img"><img src="images/img-7.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Tommy Alrez <br>170.3 ETH</p>
+                    </div>
+
+                    <div class="img"><img src="images/img-8.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Windsor Lane <br>170.3 ETH</p>
+                    </div>
+
+                    <div class="img"><img src="images/img-1.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Monica Lucas <br>170.3 ETH</p>
+                    </div>
+                    <div class="img"><img src="images/img-1.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Monica Lucas <br>170.3 ETH</p>
+                    </div>
+
+                    <div class="img"><img src="images/img-1.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Monica Lucas <br>170.3 ETH</p>
+                    </div>
+
+                    <div class="img"><img src="images/img-1.png" alt="">
+                        <img class="logo-img" src="images/checklist 1.png" alt="">
+                        <p>Monica Lucas <br>170.3 ETH</p>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+            <div class="container2">
+                <h2>Live Auction</h2>
+
+                <div class="main-carousel" data-flickity='{ "wrap-Around":true, "autoPlay":true }'>
+                    <div class="live-auction-child  carousel-cell ">
+                        <div class="auction-image">
+                            <div><button class="hover-btn">Place a bid</button><img src="images/home-img-1.png">
+                            </div>
+
+                            <div class="auction-content">
+                                <div>Hamlet Contemplat....</div>
+                                <div class="bsc">BSC</div>
+                            </div>
+                            <div class="auction-image-content">
+                                <img src="images/gg.png">
+                                <div class="auction-name">
+                                    <div class="creater">Creater<br>
+                                        Salvador dali</div>
+                                    <div class="current">Current Bid <br> 4.89ETH</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="live-auction-child carousel-cell ">
+                        <div class="auction-image"><img src="images/home-img-2.png">
+                            <div class="auction-content">
+                                <div>Hamlet Contemplat....</div>
+                                <div class="bsc">BSC</div>
+                            </div>
+                            <div class="auction-image-content">
+                                <img src="images/gg.png">
+                                <div class="auction-name">
+                                    <div class="creater">Creater<br>
+                                        Salvador dali</div>
+                                    <div class="current">Current Bid <br> 4.89ETH</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="live-auction-child carousel-cell ">
+                        <div class="auction-image"><img src="images/Rectangle 1.png">
+                            <div class="auction-content">
+                                <div>Hamlet Contemplat....</div>
+                                <div class="bsc">BSC</div>
+                            </div>
+                            <div class="auction-image-content">
+                                <img src="images/gg.png">
+                                <div class="auction-name">
+                                    <div class="creater">Creater<br>
+                                        Salvador dali</div>
+                                    <div class="current">Current Bid <br> 4.89ETH</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="live-auction-child  carousel-cell ">
+                        <div class="auction-image"><img src="images/Rectangle -z.png">
+                            <div class="auction-content">
+                                <div>Hamlet Contemplat....</div>
+                                <div class="bsc">BSC</div>
+                            </div>
+                            <div class="auction-image-content">
+                                <img src="images/gg.png">
+                                <div class="auction-name">
+                                    <div class="creater">Creater<br>
+                                        Salvador dali</div>
+                                    <div class="current">Current Bid <br> 4.89ETH</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="live-auction-child  carousel-cell ">
+                        <div class="auction-image"><img src="images/Rectangle -z.png">
+                            <div class="auction-content">
+                                <div>Hamlet Contemplat....</div>
+                                <div class="bsc">BSC</div>
+                            </div>
+                            <div class="auction-image-content">
+                                <img src="images/gg.png">
+                                <div class="auction-name">
+                                    <div class="creater">Creater<br>
+                                        Salvador dali</div>
+                                    <div class="current">Current Bid <br> 4.89ETH</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="live-auction-child  carousel-cell ">
+                        <div class="auction-image"><img src="images/Rectangle -z.png">
+                            <div class="auction-content">
+                                <div>Hamlet Contemplat....</div>
+                                <div class="bsc">BSC</div>
+                            </div>
+                            <div class="auction-image-content">
+                                <img src="images/gg.png">
+                                <div class="auction-name">
+                                    <div class="creater">Creater<br>
+                                        Salvador dali</div>
+                                    <div class="current">Current Bid <br> 4.89ETH</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="live-auction-child  carousel-cell ">
+                        <div class="auction-image"><img src="images/Rectangle -z.png">
+                            <div class="auction-content">
+                                <div>Hamlet Contemplat....</div>
+                                <div class="bsc">BSC</div>
+                            </div>
+                            <div class="auction-image-content">
+                                <img src="images/gg.png">
+                                <div class="auction-name">
+                                    <div class="creater">Creater<br>
+                                        Salvador dali</div>
+                                    <div class="current">Current Bid <br> 4.89ETH</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </div>
+    <div class="container3" loader="lazy">
+        <h2>Popular Collection</h2>
+        <div class="popular-collection">
+            <div class="item1  ">
+                <div class="item-child1">
+                    <div class="item-image">
+                        <img class="popular-image" src="images/popular-profile.png" alt="">
+                    </div>
+                    <div class="item-content">
+                        <p class="creative">Creative Art Collections</p>
+                        <span>Created by</span> <span>Ralph Garrayway</span>
+
+                    </div>
+                    <div class="item-icon">
+                        <img class="like" src="images/like (1) 1.png" alt="">
+                        <h5>100</h5>
+                    </div>
+                </div>
+                <div class="item-child2">
+                    <div class="item-child-img">
+                        <img class="c-castle" src="images/popular-img-1.png" alt="">
+                    </div>
+                    <div class="item-child-img1">
+                        <div class="item-grand-child1">
+                            <div class="great-grand-child"><img class="popular-sub-image" src="images/baccha.png"
+                                    alt=""></div>
+                            <div class="great-grand-child"><img class="lion" src="images/lion.png" alt=""></div>
+
+                        </div>
+                        <div class="item-grand-child2">
+                            <img class="Egg" src="images/eggs.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="item1">
+                <div class="item-child1">
+                    <div class="item-image">
+                        <img class="popular-image" src="images/popular-profile.png" alt="">
+                    </div>
+                    <div class="item-content">
+                        <p class="creative">Creative Art Collections</p>
+                        <span>Created by</span> <span>Ralph Garrayway</span>
+
+                    </div>
+                    <div class="item-icon">
+                        <img class="like" src="images/like (1) 1.png" alt="">
+                        <h5>100</h5>
+                    </div>
+                </div>
+                <div class="item-child2">
+                    <div class="item-child-img">
+                        <img class="c-castle" src="images/popular-img-1.png" alt="">
+                    </div>
+                    <div class="item-child-img1">
+                        <div class="item-grand-child1">
+                            <div class="great-grand-child"><img class="popular-sub-image" src="images/baccha.png"
+                                    alt=""></div>
+                            <div class="great-grand-child"><img class="lion" src="images/lion.png" alt=""></div>
+
+                        </div>
+                        <div class="item-grand-child2">
+                            <img class="Egg" src="images/eggs.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="item1">
+                <div class="item-child1">
+                    <div class="item-image">
+                        <img class="popular-image" src="images/popular-profile.png" alt="">
+                    </div>
+                    <div class="item-content">
+                        <p class="creative">Creative Art Collections</p>
+                        <span>Created by</span> <span>Ralph Garrayway</span>
+
+                    </div>
+                    <div class="item-icon">
+                        <img class="like" src="images/like (1) 1.png" alt="">
+                        <h5>100</h5>
+                    </div>
+                </div>
+                <div class="item-child2">
+                    <div class="item-child-img">
+                        <img class="c-castle" src="images/popular-img-1.png" alt="">
+                    </div>
+                    <div class="item-child-img1">
+                        <div class="item-grand-child1">
+                            <div class="great-grand-child"><img class="popular-sub-image" src="images/baccha.png"
+                                    alt=""></div>
+                            <div class="great-grand-child"><img class="lion" src="images/lion.png" alt=""></div>
+
+                        </div>
+                        <div class="item-grand-child2">
+                            <img class="Egg" src="images/eggs.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="container4">
+        <h2>Today's Pics</h2>
+        <div class="today-pics center " loader="lazy">
+            <div class="today-pic-child">
+                <div class="div1"><img class="div1" src="images/white-robot.png" alt=""></div>
+                <div class="div2">
+                    <div class="div-a"><span>“The RenaiXance Risin....</span></div>
+                    <div class="div-b"><span class="bsc">BSC</span></div>
+                </div>
+                <div class="div3">
+                    <div class="div-c"><img class="div-c" src="images/home-profile-g.png" alt=""></div>
+                    <div class="div-d"><span class="text-pic">Owned By</span> <span
+                            class="txt-today">SalvadorDali</span></div>
+                    <div class="div-e"><span class="text-pic">Current Bid</span> <span class="txt-today">4.89ETH</span>
+                    </div>
+                </div>
+                <div class="div4">
+                    <div class="div-f"><button class="place-bid-btn">Place Bid</button></div>
+                    <div class="div-g"><i class="fa-solid fa-arrows-rotate"></i> <span class="txt-today">View
+                            History</span></div>
+                </div>
+            </div>
+            <div class="today-pic-child">
+                <div class="div1"><img class="div1" src="images/t-1.png" alt=""></div>
+                <div class="div2">
+                    <div class="div-a"><span>“The RenaiXance Risin....</span></div>
+                    <div class="div-b"><span class="bsc">BSC</span></div>
+                </div>
+                <div class="div3">
+                    <div class="div-c"><img class="div-c" src="images/home-profile-g.png" alt=""></div>
+                    <div class="div-d"><span class="text-pic">Owned By</span> <span
+                            class="txt-today">SalvadorDali</span></div>
+                    <div class="div-e"><span class="text-pic">Current Bid</span> <span class="txt-today">4.89ETH</span>
+                    </div>
+                </div>
+                <div class="div4">
+                    <div class="div-f"><button class="place-bid-btn">Place Bid</button></div>
+                    <div class="div-g"><i class="fa-solid fa-arrows-rotate"></i> <span class="txt-today">View
+                            History</span></div>
+                </div>
+            </div>
+            <div class="today-pic-child">
+                <div class="div1"><img class="div1" src="images/t-2.png" alt=""></div>
+                <div class="div2">
+                    <div class="div-a"><span>“The RenaiXance Risin....</span></div>
+                    <div class="div-b"><span class="bsc">BSC</span></div>
+                </div>
+                <div class="div3">
+                    <div class="div-c"><img class="div-c" src="images/home-profile-g.png" alt=""></div>
+                    <div class="div-d"><span class="text-pic">Owned By</span> <span
+                            class="txt-today">SalvadorDali</span></div>
+                    <div class="div-e"><span class="text-pic">Current Bid</span> <span class="txt-today">4.89ETH</span>
+                    </div>
+                </div>
+                <div class="div4">
+                    <div class="div-f"><button class="place-bid-btn">Place Bid</button></div>
+                    <div class="div-g"><i class="fa-solid fa-arrows-rotate"></i> <span class="txt-today">View
+                            History</span></div>
+                </div>
+            </div>
+            <div class="today-pic-child">
+                <div class="div1"><img class="div1" src="images/t-3.png" alt=""></div>
+                <div class="div2">
+                    <div class="div-a"><span>“The RenaiXance Risin....</span></div>
+                    <div class="div-b"><span class="bsc">BSC</span></div>
+                </div>
+                <div class="div3">
+                    <div class="div-c"><img class="div-c" src="images/home-profile-g.png" alt=""></div>
+                    <div class="div-d"><span class="text-pic">Owned By</span> <span
+                            class="txt-today">SalvadorDali</span></div>
+                    <div class="div-e"><span class="text-pic">Current Bid</span> <span class="txt-today">4.89ETH</span>
+                    </div>
+                </div>
+                <div class="div4">
+                    <div class="div-f"><button class="place-bid-btn">Place Bid</button></div>
+                    <div class="div-g"><i class="fa-solid fa-arrows-rotate"></i> <span class="txt-today">View
+                            History</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="today-pics  center">
+            <div class="today-pic-child">
+                <div class="div1"><img class="div1" src="images/white-robot.png" alt=""></div>
+                <div class="div2">
+                    <div class="div-a"><span>“The RenaiXance Risin....</span></div>
+                    <div class="div-b"><span class="bsc">BSC</span></div>
+                </div>
+                <div class="div3">
+                    <div class="div-c"><img class="div-c" src="images/home-profile-g.png" alt=""></div>
+                    <div class="div-d"><span class="text-pic">Owned By</span> <span
+                            class="txt-today">SalvadorDali</span></div>
+                    <div class="div-e"><span class="text-pic">Current Bid</span> <span class="txt-today">4.89ETH</span>
+                    </div>
+                </div>
+                <div class="div4">
+                    <div class="div-f"><button class="place-bid-btn">Place Bid</button></div>
+                    <div class="div-g"><i class="fa-solid fa-arrows-rotate"></i> <span class="txt-today">View
+                            History</span></div>
+                </div>
+            </div>
+            <div class="today-pic-child">
+                <div class="div1"><img class="div1" src="images/t-2.png" alt=""></div>
+                <div class="div2">
+                    <div class="div-a"><span>“The RenaiXance Risin....</span></div>
+                    <div class="div-b"><span class="bsc">BSC</span></div>
+                </div>
+                <div class="div3">
+                    <div class="div-c"><img class="div-c" src="images/home-profile-g.png" alt=""></div>
+                    <div class="div-d"><span class="text-pic">Owned By</span> <span
+                            class="txt-today">SalvadorDali</span></div>
+                    <div class="div-e"><span class="text-pic">Current Bid</span> <span class="txt-today">4.89ETH</span>
+                    </div>
+                </div>
+                <div class="div4">
+                    <div class="div-f"><button class="place-bid-btn">Place Bid</button></div>
+                    <div class="div-g"><i class="fa-solid fa-arrows-rotate"></i> <span class="txt-today">View
+                            History</span></div>
+                </div>
+            </div>
+            <div class="today-pic-child">
+                <div class="div1"><img class="div1" src="images/t-1.png" alt=""></div>
+                <div class="div2">
+                    <div class="div-a"><span>“The RenaiXance Risin....</span></div>
+                    <div class="div-b"><span class="bsc">BSC</span></div>
+                </div>
+                <div class="div3">
+                    <div class="div-c"><img class="div-c" src="images/home-profile-g.png" alt=""></div>
+                    <div class="div-d"><span class="text-pic">Owned By</span> <span
+                            class="txt-today">SalvadorDali</span></div>
+                    <div class="div-e"><span class="text-pic">Current Bid</span> <span class="txt-today">4.89ETH</span>
+                    </div>
+                </div>
+                <div class="div4">
+                    <div class="div-f"><button class="place-bid-btn">Place Bid</button></div>
+                    <div class="div-g"><i class="fa-solid fa-arrows-rotate"></i> <span class="txt-today">View
+                            History</span></div>
+                </div>
+            </div>
+            <div class="today-pic-child">
+                <div class="div1"><img class="div1" src="images/t-3.png" alt=""></div>
+                <div class="div2">
+                    <div class="div-a"><span>“The RenaiXance Risin....</span></div>
+                    <div class="div-b"><span class="bsc">BSC</span></div>
+                </div>
+                <div class="div3">
+                    <div class="div-c"><img class="div-c" src="images/home-profile-g.png" alt=""></div>
+                    <div class="div-d"><span class="text-pic">Owned By</span> <span
+                            class="txt-today">SalvadorDali</span></div>
+                    <div class="div-e"><span class="text-pic">Current Bid</span> <span class="txt-today">4.89ETH</span>
+                    </div>
+                </div>
+                <div class="div4">
+                    <div class="div-f"><button class="place-bid-btn">Place Bid</button></div>
+                    <div class="div-g"><i class="fa-solid fa-arrows-rotate"></i> <span class="txt-today">View
+                            History</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="div-btn"><button class="learn-btn">Learn more</button></div>
+    <div class="container5">
+        <h2>Generate And Market Your Own NFTs</h2>
+        <div class="nft-generator">
+            <div class="card">
+                <div><img class="generate-img" src="images/wallet (3) 1.png" alt=""></div>
+                <div>
+                    <p class="generate-name">Establish your wallet</p>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id interdum est.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div><img class="generate-img" src="images/menu 1.png" alt="" style="background-color: #47A432;">
+                </div>
+                <div>
+                    <p class="generate-name">Craft your collection</p>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id interdum est.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div><img class="generate-img" src="images/insert-icon 1.png" alt="" style="background-color: #9835FB;">
+                </div>
+                <div>
+                    <p class="generate-name">Incorporate your NFTs</p>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id interdum est.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="generate-image"><img class="generate-img" src="images/to-do-list 1.png" alt=""
+                        style="background-color: red;">
+                </div>
+                <div>
+                    <p class="generate-name">
+                        Put them up for sale
+                    <p>
+
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id interdum est.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footer-content">
+                <div>
+                    <h2>Logo</h2>
+                    <p class="footer-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id
+                        interdum est.</p>
+                </div>
+            </div>
+            <div class="footer-content">
+                <h3>My Account</h3>
+                <ul class="footer-ul">
+                    <li><a href="">Authors</a></li>
+                    <li><a href="">Collection</a></li>
+                    <li><a href="">Author Profile</a></li>
+                    <li><a href="">Create Item</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Resources</h3>
+                <ul class="footer-ul">
+                    <li><a href="">Help & Support</a></li>
+                    <li><a href="">Live Auctions</a></li>
+                    <li><a href="">Item Details</a></li>
+                    <li><a href="">Activity</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Company</h3>
+                <ul class="footer-ul">
+                    <li><a href="">Explore</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Our Blog </a></li>
+                    <li><a href="">FAQ</a></li>
+                </ul>
+
+            </div>
+            <div class="footer-content">
+                <h3>Subscribe Us</h3>
+                <div class="search-div"><input class="footer-input" type="text"><button class="search-div-btn"><img
+                            src="images/send 1.png" alt=""></button></div>
+                <div class="footer-icon"><button class="footer-icon-btn"><img src="images/telegram (1) 1.png"
+                            alt=""></button>
+                    <button class="footer-icon-btn"><img src="images/facebook (2) 1.png" alt=""></button>
+
+                    <button class="footer-icon-btn"><img src="images/brand 1.png" alt=""></button>
+                    <button class="footer-icon-btn"><img src="images/discord 1.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+
+    </footer>
+
+    </main>
+    <div class="i-div"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Slick Carousel JS file -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="index.js"></script>
+    <script>
+        $('.main-carousel').flickity({
+            // options
+            cellAlign: 'left',
+            contain: true
+        });
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel();
+        });
+        $(document).ready(function () {
+            $('.center').slick({
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+
+</body>
+
+</html>
